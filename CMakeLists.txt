@@ -18,6 +18,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # Alternatively, using target_include_directories (more modern and preferred)
 add_executable(KalmanLab 
+    src/KalmanFilter.cpp
     src/KalmanLab.cpp)
 
 # Add the include directory for a specific target
