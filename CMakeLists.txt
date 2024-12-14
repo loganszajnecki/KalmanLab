@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Specify the path to Eigen
-set(EIGEN3_INCLUDE_DIR "/home/szajnecki/Projects/eigen-3.4.0")
+set(EIGEN3_INCLUDE_DIR "/home/szajnecki/Projects/util/eigen-3.4.0")
 
 # Add Eigen to include directories
 include_directories(${EIGEN3_INCLUDE_DIR})
